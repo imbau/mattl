@@ -1,0 +1,29 @@
+{
+  "name": "smart_riding",
+  "version": "0.0.0",
+  "description": "### Support * InfluxDB v1.7.10<br> * InfluxDB v2.0.0-beta.7",
+  "main": "db.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node MqttListen.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://140.92.63.109/litingliu/smart_riding.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@influxdata/influxdb-client": "^1.3.0",
+    "axios": "^0.19.2",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "js-sha256": "^0.9.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongodb": "^3.5.9",
+    "mqtt": "^3.0.0",
+    "request": "^2.88.2",
+    "threads": "^1.6.3",
+    "winston": "^3.3.3"
+  }
+}
